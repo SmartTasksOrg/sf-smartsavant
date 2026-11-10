@@ -1,0 +1,17 @@
+[package]
+name = "sf-smartsavant"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SmartSavant for Rust: the design-council engine, gates, schema checks, exporters, importer and audit. Not published on crates.io."
+publish = false
+
+[lib]
+name = "smartsavant"
+path = "src/lib.rs"
+
+[[bin]]
+name = "conformance"
+path = "src/bin/conformance.rs"
+
+[dependencies]

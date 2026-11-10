@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SmartSavant adapter view answer",
+  "description": "What LLMAdapter.view() returns. Lengths in Unicode code points. sf_smartsavant.schema.check_view is the exact check.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "w5h1",
+    "done_so_far",
+    "missing",
+    "devils_advocate",
+    "contribution",
+    "sources"
+  ],
+  "properties": {
+    "w5h1": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "why",
+        "how"
+      ],
+      "properties": {
+        "who": {
+          "type": "string",
+          "maxLength": 8000
+        },
+        "what": {
+          "type": "string",
+          "maxLength": 8000
+        },
+        "where": {
+          "type": "string",
+          "maxLength": 8000
+        },
+        "when": {
+          "type": "string",
+          "maxLength": 8000
+        },
+        "why": {
+          "type": "string",
+          "maxLength": 8000
+        },
+        "how": {
+          "type": "string",
+          "maxLength": 8000
+        }
+      }
+    },
+    "done_so_far": {
+      "type": "string",
+      "maxLength": 8000
+    },
+    "missing": {
+      "oneOf": [
+        {
+          "type": "string",
+          "maxLength": 8000
+        },
+        {
+          "type": "array",
+          "maxItems": 20,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000,
+            "pattern": "\\S"
+          }
+        }
+      ]
+    },
+    "devils_advocate": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 8000,
+      "pattern": "\\S"
+    },
+    "contribution": {
+      "type": "string",
+      "maxLength": 8000
+    },
+    "sources": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9._:/#@-]{1,200}$"
+      }
+    }
+  }
+}

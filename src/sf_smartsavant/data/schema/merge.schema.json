@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SmartSavant adapter merge answer",
+  "description": "What LLMAdapter.merge() returns. sf_smartsavant.schema.check_merge is the exact check.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "merge_summary",
+    "decision",
+    "resolved",
+    "open_issues",
+    "next_steps",
+    "spec_delta",
+    "loop_recommended"
+  ],
+  "properties": {
+    "merge_summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 8000,
+      "pattern": "\\S"
+    },
+    "decision": {
+      "type": "string",
+      "maxLength": 8000
+    },
+    "resolved": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000,
+        "pattern": "\\S"
+      }
+    },
+    "open_issues": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000,
+        "pattern": "\\S"
+      }
+    },
+    "next_steps": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000,
+        "pattern": "\\S"
+      }
+    },
+    "reversals": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000,
+        "pattern": "\\S"
+      }
+    },
+    "spec_delta": {
+      "type": "string",
+      "maxLength": 20000
+    },
+    "loop_recommended": {
+      "type": "boolean"
+    }
+  }
+}

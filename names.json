@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "repo": "SmartTasksOrg/sf-smartsavant",
+  "checked_on": "2026-10-16",
+  "names": [
+    {
+      "registry": "pypi",
+      "name": "sf-smartsavant",
+      "registered": true,
+      "workflow": "release.yml",
+      "note": "first release 0.1.0 is published from this repository by release.yml (tag v0.1.0, PyPI trusted publishing, provenance attestations); README 'Install' says to use a clone until it is on PyPI"
+    },
+    {
+      "registry": "pypi",
+      "name": "smartsavant",
+      "registered": false,
+      "note": "not used by the family: packages are published as sf-<name>; never install this name"
+    },
+    {
+      "registry": "pypi",
+      "name": "smartsavant-core",
+      "registered": false,
+      "note": "the maintainers' reference core this package extends; not published"
+    },
+    {
+      "registry": "npm",
+      "name": "sf-smartsavant",
+      "registered": false,
+      "note": "the Node port (ports/node); package.json is private, never published"
+    },
+    {
+      "registry": "go",
+      "name": "github.com/SmartTasksOrg/sf-smartsavant/ports/go",
+      "registered": false,
+      "note": "the Go port; a module path in this repository, not a separate repository or tag"
+    },
+    {
+      "registry": "crates.io",
+      "name": "sf-smartsavant",
+      "registered": false,
+      "note": "the Rust port (ports/rust); Cargo.toml has publish = false"
+    },
+    {
+      "registry": "maven",
+      "name": "cloud.smarttasks:sf-smartsavant",
+      "registered": false,
+      "note": "the Java port (ports/java); not published"
+    },
+    {
+      "registry": "nuget",
+      "name": "SfSmartSavant",
+      "registered": false,
+      "note": "the C# port (ports/csharp); the projects are not packable"
+    },
+    {
+      "registry": "packagist",
+      "name": "smarttasksorg/sf-smartsavant",
+      "registered": false,
+      "note": "the PHP port (ports/php); not submitted"
+    },
+    {
+      "registry": "rubygems",
+      "name": "sf-smartsavant",
+      "registered": false,
+      "note": "the Ruby port (ports/ruby); not pushed"
+    }
+  ],
+  "third_party": {
+    "pypi": [
+      "pip",
+      "build",
+      "pytest"
+    ]
+  }
+}

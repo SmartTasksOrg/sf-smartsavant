@@ -1,0 +1,506 @@
+{
+ "description": "gates per SEMANTICS.md \"Gates\"",
+ "cases": {
+  "flag_unsourced": [
+   {
+    "name": "no figures, no sources",
+    "view": {
+     "stakeholder": "Dev",
+     "contribution": "ship the parser first",
+     "devils_advocate": "risk",
+     "done_so_far": "",
+     "missing": [],
+     "sources": []
+    },
+    "allowed": [],
+    "flags": []
+   },
+   {
+    "name": "figures without a source",
+    "view": {
+     "stakeholder": "PO",
+     "contribution": "retention 30% and 5 min to value",
+     "devils_advocate": "costs $2k",
+     "done_so_far": "",
+     "missing": [
+      "a 3.5 s budget"
+     ],
+     "sources": []
+    },
+    "allowed": [],
+    "flags": [
+     {
+      "flag": "unsourced_figures",
+      "figure": "30%",
+      "stakeholder": "PO"
+     },
+     {
+      "flag": "unsourced_figures",
+      "figure": "5 min",
+      "stakeholder": "PO"
+     },
+     {
+      "flag": "unsourced_figures",
+      "figure": "$2k",
+      "stakeholder": "PO"
+     },
+     {
+      "flag": "unsourced_figures",
+      "figure": "3.5 s",
+      "stakeholder": "PO"
+     }
+    ]
+   },
+   {
+    "name": "figures with a source",
+    "view": {
+     "stakeholder": "PO",
+     "contribution": "retention 30%",
+     "devils_advocate": "",
+     "done_so_far": "",
+     "missing": [],
+     "sources": [
+      "survey-2026"
+     ]
+    },
+    "allowed": [
+     "survey-2026"
+    ],
+    "flags": []
+   },
+   {
+    "name": "unknown source",
+    "view": {
+     "stakeholder": "Arch",
+     "contribution": "p99 5 ms",
+     "devils_advocate": "",
+     "done_so_far": "",
+     "missing": [],
+     "sources": [
+      "blog-x",
+      "survey-2026"
+     ]
+    },
+    "allowed": [
+     "survey-2026"
+    ],
+    "flags": [
+     {
+      "flag": "unknown_source",
+      "source": "blog-x",
+      "stakeholder": "Arch"
+     }
+    ]
+   },
+   {
+    "name": "run sources do not excuse a view",
+    "view": {
+     "stakeholder": "UX",
+     "contribution": "40% activation",
+     "devils_advocate": "",
+     "done_so_far": "",
+     "missing": "a 2 s budget",
+     "sources": []
+    },
+    "allowed": [
+     "survey-2026"
+    ],
+    "flags": [
+     {
+      "flag": "unsourced_figures",
+      "figure": "40%",
+      "stakeholder": "UX"
+     },
+     {
+      "flag": "unsourced_figures",
+      "figure": "2 s",
+      "stakeholder": "UX"
+     }
+    ]
+   },
+   {
+    "name": "a cited source when the run lists none is unknown",
+    "view": {
+     "stakeholder": "UX",
+     "contribution": "40% activation",
+     "devils_advocate": "",
+     "done_so_far": "",
+     "missing": [],
+     "sources": [
+      "anything"
+     ]
+    },
+    "allowed": [],
+    "flags": [
+     {
+      "flag": "unknown_source",
+      "source": "anything",
+      "stakeholder": "UX"
+     }
+    ]
+   }
+  ],
+  "is_generic": [
+   {
+    "text": "\u3000",
+    "result": false
+   },
+   {
+    "text": "\u001c",
+    "result": false
+   },
+   {
+    "text": "Advance the build with the decided approach",
+    "result": true
+   },
+   {
+    "text": "advance the frame with the decided approach.",
+    "result": true
+   },
+   {
+    "text": "Implement X",
+    "result": true
+   },
+   {
+    "text": "Implement the retry policy for the ingestion queue",
+    "result": false
+   },
+   {
+    "text": "TBD",
+    "result": true
+   },
+   {
+    "text": "proceed",
+    "result": true
+   },
+   {
+    "text": "",
+    "result": true
+   },
+   {
+    "text": "  ",
+    "result": true
+   },
+   {
+    "text": "Define the OAuth2 token scope",
+    "result": false
+   },
+   {
+    "text": "Design Y for the app",
+    "result": false
+   },
+   {
+    "text": "Next steps",
+    "result": true
+   },
+   {
+    "text": "Advance the build phase with the decided approach",
+    "result": true
+   },
+   {
+    "text": "Advance the user-flow with the decided approach!",
+    "result": true
+   },
+   {
+    "text": "TBD!",
+    "result": true
+   },
+   {
+    "text": "Next steps: TBD",
+    "result": true
+   },
+   {
+    "text": "Juror fell back to the raw panel",
+    "result": true
+   },
+   {
+    "text": "Add a fallback strategy for the queue",
+    "result": false
+   }
+  ],
+  "is_fallback": [
+   {
+    "text": "Juror synthesis failed for 'Frame' after gpt-oss-20b returned unparseable output.",
+    "result": true
+   },
+   {
+    "text": "Falling back to the raw panel contributions for this step.",
+    "result": true
+   },
+   {
+    "text": "The juror decided to ship the parser.",
+    "result": false
+   },
+   {
+    "text": "def frame(signal):\n    # TODO: wire Current\n    return {'ok': True}",
+    "result": false
+   },
+   {
+    "text": "return {\"ok\": True}",
+    "result": false
+   },
+   {
+    "text": "a plan with no code",
+    "result": false
+   },
+   {
+    "text": "// TODO later",
+    "result": false
+   },
+   {
+    "text": "offline fallback text",
+    "result": true
+   },
+   {
+    "text": "Juror fell back to the raw panel",
+    "result": true
+   },
+   {
+    "text": "add a fallback cache",
+    "result": false
+   }
+  ],
+  "has_placeholder_code": [
+   {
+    "text": "Juror synthesis failed for 'Frame' after gpt-oss-20b returned unparseable output.",
+    "result": false
+   },
+   {
+    "text": "Falling back to the raw panel contributions for this step.",
+    "result": false
+   },
+   {
+    "text": "The juror decided to ship the parser.",
+    "result": false
+   },
+   {
+    "text": "def frame(signal):\n    # TODO: wire Current\n    return {'ok': True}",
+    "result": true
+   },
+   {
+    "text": "return {\"ok\": True}",
+    "result": true
+   },
+   {
+    "text": "a plan with no code",
+    "result": false
+   },
+   {
+    "text": "// TODO later",
+    "result": true
+   },
+   {
+    "text": "offline fallback text",
+    "result": false
+   },
+   {
+    "text": "Juror fell back to the raw panel",
+    "result": false
+   },
+   {
+    "text": "add a fallback cache",
+    "result": false
+   }
+  ],
+  "synthesis_ok": [
+   {
+    "name": "full",
+    "merge": {
+     "merge_summary": "Merged.",
+     "decision": "ship the parser",
+     "resolved": [
+      "parser: first"
+     ],
+     "next_steps": [
+      "Write the parser"
+     ],
+     "synthesis_status": "full"
+    },
+    "result": true
+   },
+   {
+    "name": "no status given",
+    "merge": {
+     "merge_summary": "Merged.",
+     "decision": "ship",
+     "resolved": [
+      "a: b"
+     ],
+     "next_steps": [
+      "Write the parser"
+     ]
+    },
+    "result": true
+   },
+   {
+    "name": "recovered",
+    "merge": {
+     "merge_summary": "Merged.",
+     "decision": "ship",
+     "resolved": [
+      "a: b"
+     ],
+     "next_steps": [
+      "Write the parser"
+     ],
+     "synthesis_status": "recovered"
+    },
+    "result": false
+   },
+   {
+    "name": "no decision",
+    "merge": {
+     "merge_summary": "Merged.",
+     "decision": "",
+     "resolved": [
+      "a: b"
+     ],
+     "next_steps": [
+      "Write the parser"
+     ]
+    },
+    "result": false
+   },
+   {
+    "name": "nothing resolved",
+    "merge": {
+     "merge_summary": "Merged.",
+     "decision": "ship",
+     "resolved": [],
+     "next_steps": [
+      "Write the parser"
+     ]
+    },
+    "result": false
+   },
+   {
+    "name": "only generic steps",
+    "merge": {
+     "merge_summary": "Merged.",
+     "decision": "ship",
+     "resolved": [
+      "a: b"
+     ],
+     "next_steps": [
+      "Advance the build with the decided approach"
+     ]
+    },
+    "result": false
+   },
+   {
+    "name": "fallback summary",
+    "merge": {
+     "merge_summary": "Juror synthesis failed; falling back.",
+     "decision": "ship",
+     "resolved": [
+      "a: b"
+     ],
+     "next_steps": [
+      "Write the parser"
+     ]
+    },
+    "result": false
+   },
+   {
+    "name": "one good step among generic",
+    "merge": {
+     "merge_summary": "Merged.",
+     "decision": "ship",
+     "resolved": [
+      "a: b"
+     ],
+     "next_steps": [
+      "TBD",
+      "Write the parser"
+     ]
+    },
+    "result": true
+   },
+   {
+    "name": "fallback in resolved",
+    "merge": {
+     "merge_summary": "Merged.",
+     "decision": "ship",
+     "resolved": [
+      "Juror synthesis failed; falling back."
+     ],
+     "next_steps": [
+      "Write the parser"
+     ]
+    },
+    "result": false
+   },
+   {
+    "name": "fallback in a next step",
+    "merge": {
+     "merge_summary": "Merged.",
+     "decision": "ship",
+     "resolved": [
+      "a: b"
+     ],
+     "next_steps": [
+      "returned unparseable output",
+      "Write the parser"
+     ]
+    },
+    "result": false
+   }
+  ],
+  "compliance_block": [
+   {
+    "text": "Buy the stock before the non-public results",
+    "result": [
+     "possible trading guidance on non-public information"
+    ]
+   },
+   {
+    "text": "MNPI: we should short it",
+    "result": [
+     "possible trading guidance on non-public information"
+    ]
+   },
+   {
+    "text": "public results: buy",
+    "result": []
+   },
+   {
+    "text": "non-public roadmap only",
+    "result": []
+   },
+   {
+    "text": "here is -----BEGIN OPENSSH KEY----- x",
+    "result": [
+     "possible credential or secret in the output"
+    ]
+   },
+   {
+    "text": "set api_key=abc",
+    "result": [
+     "possible credential or secret in the output"
+    ]
+   },
+   {
+    "text": "nothing to see",
+    "result": []
+   }
+  ],
+  "squash": [
+   {
+    "text": "  a \t b\n\nc  ",
+    "result": "a b c"
+   },
+   {
+    "text": "\u001c a\u00a0b ",
+    "result": "\u001c a\u00a0b"
+   },
+   {
+    "text": "",
+    "result": ""
+   },
+   {
+    "text": "one",
+    "result": "one"
+   }
+  ]
+ }
+}

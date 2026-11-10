@@ -1,0 +1,13 @@
+{
+  "schema": "smartsavant.phases/1",
+  "note": "The GV sprint arc. Edit titles/questions or supply your own list to Council(phases=...).",
+  "phases": [
+    {"step_id": "frame", "title": "Frame", "question": "What is the problem, who are the users, and the jobs-to-be-done?"},
+    {"step_id": "concept", "title": "Concept", "question": "What is the solution direction and the wedge?"},
+    {"step_id": "design", "title": "Design", "question": "What are the user flow, data flow, and experience?"},
+    {"step_id": "build", "title": "Build", "question": "What is the technical approach?"},
+    {"step_id": "integrate", "title": "Integrate", "question": "How does it fit the target architecture?"},
+    {"step_id": "measure", "title": "Measure", "question": "What are the KPIs and success metrics?"},
+    {"step_id": "spec", "title": "Spec", "question": "Assemble the final document."}
+  ]
+}

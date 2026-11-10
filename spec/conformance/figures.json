@@ -1,0 +1,90 @@
+{
+ "description": "figures(text) per gates.py and SEMANTICS.md \"Figures\"",
+ "cases": [
+  {
+   "text": "revenue was $5,272M and 29.8% of it",
+   "figures": [
+    "$5,272M",
+    "29.8%"
+   ]
+  },
+  {
+   "text": "p99 under <5 ms, CPU < 2% avg",
+   "figures": [
+    "5 ms",
+    "2%"
+   ]
+  },
+  {
+   "text": "return 2-5 next steps in step 3",
+   "figures": []
+  },
+  {
+   "text": "founded in 2026 with 12 users",
+   "figures": [
+    "12 users"
+   ]
+  },
+  {
+   "text": "1,000,000 rows and 3.14 pies",
+   "figures": [
+    "1,000,000",
+    "3.14"
+   ]
+  },
+  {
+   "text": "\u20ac40k budget, \u00a33 fee, 7x faster, 500kpps",
+   "figures": [
+    "\u20ac40k",
+    "\u00a33",
+    "7x",
+    "500kpps"
+   ]
+  },
+  {
+   "text": "30s window \u00b1200ms jitter",
+   "figures": [
+    "30s",
+    "200ms"
+   ]
+  },
+  {
+   "text": "v1.2.3 and x86_64 are not figures",
+   "figures": []
+  },
+  {
+   "text": "ab12 cd 34ef",
+   "figures": []
+  },
+  {
+   "text": "",
+   "figures": []
+  },
+  {
+   "text": "10 GB, 2 TB, 64 MiB",
+   "figures": [
+    "10 GB",
+    "2 TB",
+    "64 MiB"
+   ]
+  },
+  {
+   "text": "weekly retention \u2265 30%",
+   "figures": [
+    "30%"
+   ]
+  },
+  {
+   "text": "40% of AI developers run frame in week 1",
+   "figures": [
+    "40%"
+   ]
+  },
+  {
+   "text": "time-to-first-value < 5 min",
+   "figures": [
+    "5 min"
+   ]
+  }
+ ]
+}

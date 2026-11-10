@@ -1,0 +1,28 @@
+SmartSavant
+Copyright 2026 SmartTasks Lab
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Names and affiliation
+---------------------
+
+SmartSavant is published by SmartTasksOrg. The only package names it is
+published under are those marked "registered": true in names.json.
+
+All names of other products are the property of their respective owners.
+Their use here only says what the software connects to or works with; it does
+not imply affiliation, sponsorship or endorsement.
+
+Origin
+------
+
+This package extends smartsavant-core 0.1.0, the maintainers' reference
+implementation of the council engine (docs/decisions.md lists the changes).
+smartsavant-core is licensed under the Apache License, Version 2.0.
+
+Third-party code
+----------------
+
+None. The Python package and the Node.js, Go, Rust, Java, C#, PHP and Ruby
+ports use only their language's standard library (and, for PHP, the bundled
+mbstring and pcre extensions).

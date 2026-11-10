@@ -1,0 +1,2249 @@
+{
+ "description": "import (SmartSignal shapes) and audit; reports must match",
+ "cases": {
+  "import": [
+   {
+    "name": "good export",
+    "input": {
+     "exported_at": "fixture",
+     "idea": {
+      "name": "Fixture",
+      "problem": "p",
+      "solution": "s",
+      "audience": "a"
+     },
+     "council_build": "fixture",
+     "rounds": [
+      {
+       "step_id": "frame",
+       "step_title": "Frame",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer at frame: a specific risk",
+          "contribution": {
+           "approach": "Developer picks the parser for step frame",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner at frame: a specific risk",
+          "contribution": {
+           "approach": "Product Owner picks the parser for step frame",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead at frame: a specific risk",
+          "contribution": {
+           "approach": "Team Lead picks the parser for step frame",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Merged frame.",
+        "resolved": [
+         "frame topic: decided"
+        ],
+        "open_issues": [
+         "one"
+        ],
+        "next_steps": [
+         "Build the frame parser component"
+        ],
+        "spec_delta": "text",
+        "synthesis_status": "full",
+        "model": "model-b",
+        "loop_recommended": false
+       }
+      },
+      {
+       "step_id": "concept",
+       "step_title": "Concept",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer at concept: a specific risk",
+          "contribution": {
+           "approach": "Developer picks the parser for step concept",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner at concept: a specific risk",
+          "contribution": {
+           "approach": "Product Owner picks the parser for step concept",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead at concept: a specific risk",
+          "contribution": {
+           "approach": "Team Lead picks the parser for step concept",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Merged concept.",
+        "resolved": [
+         "concept topic: decided"
+        ],
+        "open_issues": [
+         "one"
+        ],
+        "next_steps": [
+         "Build the concept parser component"
+        ],
+        "spec_delta": "text",
+        "synthesis_status": "full",
+        "model": "model-b",
+        "loop_recommended": false
+       }
+      },
+      {
+       "step_id": "build",
+       "step_title": "Build",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer at build: a specific risk",
+          "contribution": {
+           "approach": "Developer picks the parser for step build",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner at build: a specific risk",
+          "contribution": {
+           "approach": "Product Owner picks the parser for step build",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead at build: a specific risk",
+          "contribution": {
+           "approach": "Team Lead picks the parser for step build",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Merged build.",
+        "resolved": [
+         "build topic: decided"
+        ],
+        "open_issues": [
+         "one"
+        ],
+        "next_steps": [
+         "Build the build parser component"
+        ],
+        "spec_delta": "text",
+        "synthesis_status": "full",
+        "model": "model-b",
+        "loop_recommended": false
+       }
+      }
+     ]
+    },
+    "council": {
+     "schema": "smartsavant.council/1",
+     "idea": "Fixture: p -> s (audience: a)",
+     "adapter": "smartsignal:model-a,model-b",
+     "synthetic": false,
+     "stakeholders": [
+      "Developer",
+      "Product Owner",
+      "Team Lead"
+     ],
+     "sources": [],
+     "rounds": [
+      {
+       "step_id": "frame",
+       "step_title": "Frame",
+       "iteration": 1,
+       "question": "Frame",
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "status": "ok",
+         "w5h1": {
+          "who": "Developer",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Developer at frame: a specific risk",
+         "contribution": "approach: Developer picks the parser for step frame\nkpis: activation 40% in week 1",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "status": "ok",
+         "w5h1": {
+          "who": "Product Owner",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Product Owner at frame: a specific risk",
+         "contribution": "approach: Product Owner picks the parser for step frame\nkpis: activation 40% in week 1",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "status": "ok",
+         "w5h1": {
+          "who": "Team Lead",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Team Lead at frame: a specific risk",
+         "contribution": "approach: Team Lead picks the parser for step frame\nkpis: activation 40% in week 1",
+         "sources": [],
+         "error": ""
+        }
+       ],
+       "juror": {
+        "synthesis_status": "full",
+        "merge_summary": "Merged frame.",
+        "decision": "frame topic: decided",
+        "resolved": [
+         "frame topic: decided"
+        ],
+        "open_issues": [
+         "one"
+        ],
+        "next_steps": [
+         "Build the frame parser component"
+        ],
+        "reversals": [],
+        "spec_delta": "text",
+        "loop_recommended": false,
+        "error": ""
+       }
+      },
+      {
+       "step_id": "concept",
+       "step_title": "Concept",
+       "iteration": 1,
+       "question": "Concept",
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "status": "ok",
+         "w5h1": {
+          "who": "Developer",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Developer at concept: a specific risk",
+         "contribution": "approach: Developer picks the parser for step concept\nkpis: activation 40% in week 1",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "status": "ok",
+         "w5h1": {
+          "who": "Product Owner",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Product Owner at concept: a specific risk",
+         "contribution": "approach: Product Owner picks the parser for step concept\nkpis: activation 40% in week 1",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "status": "ok",
+         "w5h1": {
+          "who": "Team Lead",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Team Lead at concept: a specific risk",
+         "contribution": "approach: Team Lead picks the parser for step concept\nkpis: activation 40% in week 1",
+         "sources": [],
+         "error": ""
+        }
+       ],
+       "juror": {
+        "synthesis_status": "full",
+        "merge_summary": "Merged concept.",
+        "decision": "concept topic: decided",
+        "resolved": [
+         "concept topic: decided"
+        ],
+        "open_issues": [
+         "one"
+        ],
+        "next_steps": [
+         "Build the concept parser component"
+        ],
+        "reversals": [],
+        "spec_delta": "text",
+        "loop_recommended": false,
+        "error": ""
+       }
+      },
+      {
+       "step_id": "build",
+       "step_title": "Build",
+       "iteration": 1,
+       "question": "Build",
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "status": "ok",
+         "w5h1": {
+          "who": "Developer",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Developer at build: a specific risk",
+         "contribution": "approach: Developer picks the parser for step build\nkpis: activation 40% in week 1",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "status": "ok",
+         "w5h1": {
+          "who": "Product Owner",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Product Owner at build: a specific risk",
+         "contribution": "approach: Product Owner picks the parser for step build\nkpis: activation 40% in week 1",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "status": "ok",
+         "w5h1": {
+          "who": "Team Lead",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Team Lead at build: a specific risk",
+         "contribution": "approach: Team Lead picks the parser for step build\nkpis: activation 40% in week 1",
+         "sources": [],
+         "error": ""
+        }
+       ],
+       "juror": {
+        "synthesis_status": "full",
+        "merge_summary": "Merged build.",
+        "decision": "build topic: decided",
+        "resolved": [
+         "build topic: decided"
+        ],
+        "open_issues": [
+         "one"
+        ],
+        "next_steps": [
+         "Build the build parser component"
+        ],
+        "reversals": [],
+        "spec_delta": "text",
+        "loop_recommended": false,
+        "error": ""
+       }
+      }
+     ],
+     "decision_tree": [
+      {
+       "step_id": "frame",
+       "iteration": 1,
+       "branches": [
+        "approach: Developer picks the parser for step frame\nkpis: activation 40% in week 1",
+        "approach: Product Owner picks the parser for step frame\nkpis: activation 40% in week 1",
+        "approach: Team Lead picks the parser for step frame\nkpis: activation 40% in week 1"
+       ],
+       "decision": "frame topic: decided",
+       "next_steps": [
+        "Build the frame parser component"
+       ]
+      },
+      {
+       "step_id": "concept",
+       "iteration": 1,
+       "branches": [
+        "approach: Developer picks the parser for step concept\nkpis: activation 40% in week 1",
+        "approach: Product Owner picks the parser for step concept\nkpis: activation 40% in week 1",
+        "approach: Team Lead picks the parser for step concept\nkpis: activation 40% in week 1"
+       ],
+       "decision": "concept topic: decided",
+       "next_steps": [
+        "Build the concept parser component"
+       ]
+      },
+      {
+       "step_id": "build",
+       "iteration": 1,
+       "branches": [
+        "approach: Developer picks the parser for step build\nkpis: activation 40% in week 1",
+        "approach: Product Owner picks the parser for step build\nkpis: activation 40% in week 1",
+        "approach: Team Lead picks the parser for step build\nkpis: activation 40% in week 1"
+       ],
+       "decision": "build topic: decided",
+       "next_steps": [
+        "Build the build parser component"
+       ]
+      }
+     ],
+     "locked_decisions": [
+      "frame topic: decided",
+      "concept topic: decided",
+      "build topic: decided"
+     ],
+     "flags": [
+      {
+       "flag": "unsourced_figures",
+       "figure": "40%",
+       "stakeholder": "Developer",
+       "step_id": "frame",
+       "iteration": 1
+      },
+      {
+       "flag": "unsourced_figures",
+       "figure": "40%",
+       "stakeholder": "Product Owner",
+       "step_id": "frame",
+       "iteration": 1
+      },
+      {
+       "flag": "unsourced_figures",
+       "figure": "40%",
+       "stakeholder": "Team Lead",
+       "step_id": "frame",
+       "iteration": 1
+      },
+      {
+       "flag": "unsourced_figures",
+       "figure": "40%",
+       "stakeholder": "Developer",
+       "step_id": "concept",
+       "iteration": 1
+      },
+      {
+       "flag": "unsourced_figures",
+       "figure": "40%",
+       "stakeholder": "Product Owner",
+       "step_id": "concept",
+       "iteration": 1
+      },
+      {
+       "flag": "unsourced_figures",
+       "figure": "40%",
+       "stakeholder": "Team Lead",
+       "step_id": "concept",
+       "iteration": 1
+      },
+      {
+       "flag": "unsourced_figures",
+       "figure": "40%",
+       "stakeholder": "Developer",
+       "step_id": "build",
+       "iteration": 1
+      },
+      {
+       "flag": "unsourced_figures",
+       "figure": "40%",
+       "stakeholder": "Product Owner",
+       "step_id": "build",
+       "iteration": 1
+      },
+      {
+       "flag": "unsourced_figures",
+       "figure": "40%",
+       "stakeholder": "Team Lead",
+       "step_id": "build",
+       "iteration": 1
+      }
+     ]
+    }
+   },
+   {
+    "name": "offline export",
+    "input": {
+     "exported_at": "fixture",
+     "idea": {
+      "name": "Fixture",
+      "problem": "p",
+      "solution": "s",
+      "audience": "a"
+     },
+     "council_build": "fixture",
+     "rounds": [
+      {
+       "step_id": "frame",
+       "step_title": "Frame",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Developer ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Product Owner ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Team Lead ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Juror synthesis failed for 'frame' after model-b returned unparseable output.",
+        "resolved": [],
+        "open_issues": [],
+        "next_steps": [
+         "Advance the frame with the decided approach"
+        ],
+        "spec_delta": "# TODO\nreturn {'ok': True}",
+        "synthesis_status": "recovered",
+        "model": "model-b"
+       }
+      },
+      {
+       "step_id": "concept",
+       "step_title": "Concept",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Developer ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Product Owner ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Team Lead ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Juror synthesis failed for 'concept' after model-b returned unparseable output.",
+        "resolved": [],
+        "open_issues": [],
+        "next_steps": [
+         "Advance the concept with the decided approach"
+        ],
+        "spec_delta": "# TODO\nreturn {'ok': True}",
+        "synthesis_status": "recovered",
+        "model": "model-b"
+       }
+      },
+      {
+       "step_id": "build",
+       "step_title": "Build",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Developer ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Product Owner ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Team Lead ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Juror synthesis failed for 'build' after model-b returned unparseable output.",
+        "resolved": [],
+        "open_issues": [],
+        "next_steps": [
+         "Advance the build with the decided approach"
+        ],
+        "spec_delta": "# TODO\nreturn {'ok': True}",
+        "synthesis_status": "recovered",
+        "model": "model-b"
+       }
+      }
+     ]
+    },
+    "council": {
+     "schema": "smartsavant.council/1",
+     "idea": "Fixture: p -> s (audience: a)",
+     "adapter": "smartsignal:model-b",
+     "synthetic": false,
+     "stakeholders": [
+      "Developer",
+      "Product Owner",
+      "Team Lead"
+     ],
+     "sources": [],
+     "rounds": [
+      {
+       "step_id": "frame",
+       "step_title": "Frame",
+       "iteration": 1,
+       "question": "Frame",
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "status": "offline",
+         "w5h1": {
+          "who": "Developer",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Developer: the frame risk is the same everywhere in this template text",
+         "contribution": "approach: Developer ships a thin first cut\ncode_snippet: def f(s):\n    # TODO: wire\n    return {'ok': True}",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "status": "offline",
+         "w5h1": {
+          "who": "Product Owner",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Product Owner: the frame risk is the same everywhere in this template text",
+         "contribution": "approach: Product Owner ships a thin first cut\ncode_snippet: def f(s):\n    # TODO: wire\n    return {'ok': True}",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "status": "offline",
+         "w5h1": {
+          "who": "Team Lead",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Team Lead: the frame risk is the same everywhere in this template text",
+         "contribution": "approach: Team Lead ships a thin first cut\ncode_snippet: def f(s):\n    # TODO: wire\n    return {'ok': True}",
+         "sources": [],
+         "error": ""
+        }
+       ],
+       "juror": {
+        "synthesis_status": "recovered",
+        "merge_summary": "Juror synthesis failed for 'frame' after model-b returned unparseable output.",
+        "decision": "",
+        "resolved": [],
+        "open_issues": [],
+        "next_steps": [
+         "Advance the frame with the decided approach"
+        ],
+        "reversals": [],
+        "spec_delta": "# TODO\nreturn {'ok': True}",
+        "loop_recommended": false,
+        "error": ""
+       }
+      },
+      {
+       "step_id": "concept",
+       "step_title": "Concept",
+       "iteration": 1,
+       "question": "Concept",
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "status": "offline",
+         "w5h1": {
+          "who": "Developer",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Developer: the frame risk is the same everywhere in this template text",
+         "contribution": "approach: Developer ships a thin first cut\ncode_snippet: def f(s):\n    # TODO: wire\n    return {'ok': True}",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "status": "offline",
+         "w5h1": {
+          "who": "Product Owner",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Product Owner: the frame risk is the same everywhere in this template text",
+         "contribution": "approach: Product Owner ships a thin first cut\ncode_snippet: def f(s):\n    # TODO: wire\n    return {'ok': True}",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "status": "offline",
+         "w5h1": {
+          "who": "Team Lead",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Team Lead: the frame risk is the same everywhere in this template text",
+         "contribution": "approach: Team Lead ships a thin first cut\ncode_snippet: def f(s):\n    # TODO: wire\n    return {'ok': True}",
+         "sources": [],
+         "error": ""
+        }
+       ],
+       "juror": {
+        "synthesis_status": "recovered",
+        "merge_summary": "Juror synthesis failed for 'concept' after model-b returned unparseable output.",
+        "decision": "",
+        "resolved": [],
+        "open_issues": [],
+        "next_steps": [
+         "Advance the concept with the decided approach"
+        ],
+        "reversals": [],
+        "spec_delta": "# TODO\nreturn {'ok': True}",
+        "loop_recommended": false,
+        "error": ""
+       }
+      },
+      {
+       "step_id": "build",
+       "step_title": "Build",
+       "iteration": 1,
+       "question": "Build",
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "status": "offline",
+         "w5h1": {
+          "who": "Developer",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Developer: the frame risk is the same everywhere in this template text",
+         "contribution": "approach: Developer ships a thin first cut\ncode_snippet: def f(s):\n    # TODO: wire\n    return {'ok': True}",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "status": "offline",
+         "w5h1": {
+          "who": "Product Owner",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Product Owner: the frame risk is the same everywhere in this template text",
+         "contribution": "approach: Product Owner ships a thin first cut\ncode_snippet: def f(s):\n    # TODO: wire\n    return {'ok': True}",
+         "sources": [],
+         "error": ""
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "status": "offline",
+         "w5h1": {
+          "who": "Team Lead",
+          "what": "w",
+          "where": "x",
+          "when": "y",
+          "why": "z",
+          "how": "h"
+         },
+         "done_so_far": "sketched",
+         "missing": [
+          "a benchmark"
+         ],
+         "devils_advocate": "Team Lead: the frame risk is the same everywhere in this template text",
+         "contribution": "approach: Team Lead ships a thin first cut\ncode_snippet: def f(s):\n    # TODO: wire\n    return {'ok': True}",
+         "sources": [],
+         "error": ""
+        }
+       ],
+       "juror": {
+        "synthesis_status": "recovered",
+        "merge_summary": "Juror synthesis failed for 'build' after model-b returned unparseable output.",
+        "decision": "",
+        "resolved": [],
+        "open_issues": [],
+        "next_steps": [
+         "Advance the build with the decided approach"
+        ],
+        "reversals": [],
+        "spec_delta": "# TODO\nreturn {'ok': True}",
+        "loop_recommended": false,
+        "error": ""
+       }
+      }
+     ],
+     "decision_tree": [
+      {
+       "step_id": "frame",
+       "iteration": 1,
+       "branches": [],
+       "decision": "",
+       "next_steps": [
+        "Advance the frame with the decided approach"
+       ]
+      },
+      {
+       "step_id": "concept",
+       "iteration": 1,
+       "branches": [],
+       "decision": "",
+       "next_steps": [
+        "Advance the concept with the decided approach"
+       ]
+      },
+      {
+       "step_id": "build",
+       "iteration": 1,
+       "branches": [],
+       "decision": "",
+       "next_steps": [
+        "Advance the build with the decided approach"
+       ]
+      }
+     ],
+     "locked_decisions": [],
+     "flags": []
+    }
+   }
+  ],
+  "council": [
+   {
+    "name": "good export",
+    "input": {
+     "exported_at": "fixture",
+     "idea": {
+      "name": "Fixture",
+      "problem": "p",
+      "solution": "s",
+      "audience": "a"
+     },
+     "council_build": "fixture",
+     "rounds": [
+      {
+       "step_id": "frame",
+       "step_title": "Frame",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer at frame: a specific risk",
+          "contribution": {
+           "approach": "Developer picks the parser for step frame",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner at frame: a specific risk",
+          "contribution": {
+           "approach": "Product Owner picks the parser for step frame",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead at frame: a specific risk",
+          "contribution": {
+           "approach": "Team Lead picks the parser for step frame",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Merged frame.",
+        "resolved": [
+         "frame topic: decided"
+        ],
+        "open_issues": [
+         "one"
+        ],
+        "next_steps": [
+         "Build the frame parser component"
+        ],
+        "spec_delta": "text",
+        "synthesis_status": "full",
+        "model": "model-b",
+        "loop_recommended": false
+       }
+      },
+      {
+       "step_id": "concept",
+       "step_title": "Concept",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer at concept: a specific risk",
+          "contribution": {
+           "approach": "Developer picks the parser for step concept",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner at concept: a specific risk",
+          "contribution": {
+           "approach": "Product Owner picks the parser for step concept",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead at concept: a specific risk",
+          "contribution": {
+           "approach": "Team Lead picks the parser for step concept",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Merged concept.",
+        "resolved": [
+         "concept topic: decided"
+        ],
+        "open_issues": [
+         "one"
+        ],
+        "next_steps": [
+         "Build the concept parser component"
+        ],
+        "spec_delta": "text",
+        "synthesis_status": "full",
+        "model": "model-b",
+        "loop_recommended": false
+       }
+      },
+      {
+       "step_id": "build",
+       "step_title": "Build",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer at build: a specific risk",
+          "contribution": {
+           "approach": "Developer picks the parser for step build",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner at build: a specific risk",
+          "contribution": {
+           "approach": "Product Owner picks the parser for step build",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "llm",
+         "model": "model-a",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead at build: a specific risk",
+          "contribution": {
+           "approach": "Team Lead picks the parser for step build",
+           "kpis": [
+            "activation 40% in week 1"
+           ]
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Merged build.",
+        "resolved": [
+         "build topic: decided"
+        ],
+        "open_issues": [
+         "one"
+        ],
+        "next_steps": [
+         "Build the build parser component"
+        ],
+        "spec_delta": "text",
+        "synthesis_status": "full",
+        "model": "model-b",
+        "loop_recommended": false
+       }
+      }
+     ]
+    },
+    "report": {
+     "kind": "council",
+     "summary": {
+      "views": {
+       "ok": 9
+      },
+      "merges": {
+       "full": 3
+      },
+      "phases": 3,
+      "phases_decided": 3,
+      "decided": true,
+      "flags": 9,
+      "synthetic": false
+     },
+     "findings": [
+      {
+       "code": "AUDIT-UNSOURCED",
+       "severity": "warning",
+       "count": 9,
+       "detail": "figures without a source, or unknown sources",
+       "examples": [
+        "frame/Developer: 40%",
+        "frame/Product Owner: 40%",
+        "frame/Team Lead: 40%",
+        "concept/Developer: 40%",
+        "concept/Product Owner: 40%"
+       ]
+      }
+     ],
+     "verdict": "build-ready"
+    }
+   },
+   {
+    "name": "offline export",
+    "input": {
+     "exported_at": "fixture",
+     "idea": {
+      "name": "Fixture",
+      "problem": "p",
+      "solution": "s",
+      "audience": "a"
+     },
+     "council_build": "fixture",
+     "rounds": [
+      {
+       "step_id": "frame",
+       "step_title": "Frame",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Developer ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Product Owner ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Team Lead ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Juror synthesis failed for 'frame' after model-b returned unparseable output.",
+        "resolved": [],
+        "open_issues": [],
+        "next_steps": [
+         "Advance the frame with the decided approach"
+        ],
+        "spec_delta": "# TODO\nreturn {'ok': True}",
+        "synthesis_status": "recovered",
+        "model": "model-b"
+       }
+      },
+      {
+       "step_id": "concept",
+       "step_title": "Concept",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Developer ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Product Owner ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Team Lead ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Juror synthesis failed for 'concept' after model-b returned unparseable output.",
+        "resolved": [],
+        "open_issues": [],
+        "next_steps": [
+         "Advance the concept with the decided approach"
+        ],
+        "spec_delta": "# TODO\nreturn {'ok': True}",
+        "synthesis_status": "recovered",
+        "model": "model-b"
+       }
+      },
+      {
+       "step_id": "build",
+       "step_title": "Build",
+       "round": 0,
+       "views": [
+        {
+         "stakeholder": "Developer",
+         "role": "developer",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Developer",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Developer: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Developer ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Product Owner",
+         "role": "product owner",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Product Owner",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Product Owner: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Product Owner ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        },
+        {
+         "stakeholder": "Team Lead",
+         "role": "team lead",
+         "source": "offline",
+         "model": "",
+         "parsed": {
+          "w5h1": {
+           "who": "Team Lead",
+           "what": "w",
+           "where": "x",
+           "when": "y",
+           "why": "z",
+           "how": "h"
+          },
+          "done_so_far": "sketched",
+          "missing": [
+           "a benchmark"
+          ],
+          "devils_advocate": "Team Lead: the frame risk is the same everywhere in this template text",
+          "contribution": {
+           "approach": "Team Lead ships a thin first cut",
+           "code_snippet": "def f(s):\n    # TODO: wire\n    return {'ok': True}"
+          }
+         }
+        }
+       ],
+       "juror": {
+        "merge_summary": "Juror synthesis failed for 'build' after model-b returned unparseable output.",
+        "resolved": [],
+        "open_issues": [],
+        "next_steps": [
+         "Advance the build with the decided approach"
+        ],
+        "spec_delta": "# TODO\nreturn {'ok': True}",
+        "synthesis_status": "recovered",
+        "model": "model-b"
+       }
+      }
+     ]
+    },
+    "report": {
+     "kind": "council",
+     "summary": {
+      "views": {
+       "offline": 9
+      },
+      "merges": {
+       "recovered": 3
+      },
+      "phases": 3,
+      "phases_decided": 0,
+      "decided": false,
+      "flags": 0,
+      "synthetic": false
+     },
+     "findings": [
+      {
+       "code": "AUDIT-FALLBACK-TEXT",
+       "severity": "error",
+       "count": 3,
+       "detail": "fallback text where a decision should be",
+       "examples": [
+        "frame.merge_summary: Juror synthesis failed for 'frame' after model-b returned unparseable output.",
+        "concept.merge_summary: Juror synthesis failed for 'concept' after model-b returned unparseable output.",
+        "build.merge_summary: Juror synthesis failed for 'build' after model-b returned unparseable output."
+       ]
+      },
+      {
+       "code": "AUDIT-GENERIC-STEPS",
+       "severity": "error",
+       "count": 3,
+       "detail": "3 of 3 next steps name nothing",
+       "examples": [
+        "Advance the frame with the decided approach",
+        "Advance the concept with the decided approach",
+        "Advance the build with the decided approach"
+       ]
+      },
+      {
+       "code": "AUDIT-NO-SYNTHESIS",
+       "severity": "error",
+       "count": 3,
+       "detail": "3 of 3 phases have no full synthesis",
+       "examples": [
+        "frame: recovered",
+        "concept: recovered",
+        "build: recovered"
+       ]
+      },
+      {
+       "code": "AUDIT-OFFLINE-VIEWS",
+       "severity": "error",
+       "count": 9,
+       "detail": "9 of 9 views are offline templates",
+       "examples": [
+        "frame/Developer",
+        "frame/Product Owner",
+        "frame/Team Lead",
+        "concept/Developer",
+        "concept/Product Owner"
+       ]
+      },
+      {
+       "code": "AUDIT-TEMPLATE-VIEWS",
+       "severity": "error",
+       "count": 6,
+       "detail": "the same view text appears in 3 or more phases",
+       "examples": [
+        "Developer: Developer: the frame risk is the same everywhere in this tem",
+        "Developer: approach: Developer ships a thin first cut code_snippet: def",
+        "Product Owner: Product Owner: the frame risk is the same everywhere in this",
+        "Product Owner: approach: Product Owner ships a thin first cut code_snippet:",
+        "Team Lead: Team Lead: the frame risk is the same everywhere in this tem"
+       ]
+      },
+      {
+       "code": "AUDIT-PLACEHOLDER-CODE",
+       "severity": "warning",
+       "count": 12,
+       "detail": "placeholder code presented as content",
+       "examples": [
+        "frame/Developer",
+        "frame/Product Owner",
+        "frame/Team Lead",
+        "concept/Developer",
+        "concept/Product Owner"
+       ]
+      }
+     ],
+     "verdict": "not build-ready"
+    }
+   }
+  ],
+  "stories": [
+   {
+    "name": "all generic",
+    "input": {
+     "stories": [
+      {
+       "title": "Advance the frame with the decided approach"
+      },
+      {
+       "title": "Advance the build with the decided approach"
+      }
+     ]
+    },
+    "report": {
+     "kind": "stories",
+     "summary": {
+      "stories": 2
+     },
+     "findings": [
+      {
+       "code": "AUDIT-GENERIC-STEPS",
+       "severity": "error",
+       "count": 2,
+       "detail": "2 of 2 story titles name nothing",
+       "examples": [
+        "Advance the frame with the decided approach",
+        "Advance the build with the decided approach"
+       ]
+      }
+     ],
+     "verdict": "not build-ready"
+    }
+   },
+   {
+    "name": "mixed",
+    "input": {
+     "stories": [
+      {
+       "title": "Write the parser"
+      },
+      {
+       "title": "TBD"
+      }
+     ]
+    },
+    "report": {
+     "kind": "stories",
+     "summary": {
+      "stories": 2
+     },
+     "findings": [
+      {
+       "code": "AUDIT-GENERIC-STEPS",
+       "severity": "warning",
+       "count": 1,
+       "detail": "1 of 2 story titles name nothing",
+       "examples": [
+        "TBD"
+       ]
+      }
+     ],
+     "verdict": "build-ready"
+    }
+   },
+   {
+    "name": "empty",
+    "input": {
+     "stories": []
+    },
+    "report": {
+     "kind": "stories",
+     "summary": {
+      "stories": 0
+     },
+     "findings": [
+      {
+       "code": "AUDIT-NO-SYNTHESIS",
+       "severity": "error",
+       "count": 0,
+       "detail": "no stories",
+       "examples": []
+      }
+     ],
+     "verdict": "not build-ready"
+    }
+   }
+  ],
+  "trainset": [
+   {
+    "name": "mixed rows",
+    "input": [
+     {
+      "output": "Write the parser",
+      "meta": {
+       "kind": "expert"
+      }
+     },
+     {
+      "output": "Juror synthesis failed for 'x'",
+      "meta": {
+       "kind": "facilitation"
+      }
+     },
+     {
+      "messages": [
+       {
+        "role": "user",
+        "content": "q"
+       },
+       {
+        "role": "assistant",
+        "content": "return {'ok': True}"
+       }
+      ],
+      "meta": {
+       "kind": "conversation"
+      }
+     },
+     {
+      "output": "fine",
+      "meta": "not an object"
+     }
+    ],
+    "report": {
+     "kind": "trainset",
+     "summary": {
+      "rows": 4,
+      "kinds": [
+       [
+        "conversation",
+        1
+       ],
+       [
+        "expert",
+        1
+       ],
+       [
+        "facilitation",
+        1
+       ],
+       [
+        "unknown",
+        1
+       ]
+      ]
+     },
+     "findings": [
+      {
+       "code": "AUDIT-TRAINSET-CONTAMINATED",
+       "severity": "error",
+       "count": 2,
+       "detail": "2 of 4 rows teach fallback or placeholder output",
+       "examples": [
+        "row 1 (facilitation): fallback",
+        "row 2 (conversation): placeholder code"
+       ]
+      }
+     ],
+     "verdict": "not build-ready"
+    }
+   },
+   {
+    "name": "empty",
+    "input": [],
+    "report": {
+     "kind": "trainset",
+     "summary": {
+      "rows": 0,
+      "kinds": []
+     },
+     "findings": [
+      {
+       "code": "AUDIT-TRAINSET-CONTAMINATED",
+       "severity": "error",
+       "count": 0,
+       "detail": "no rows",
+       "examples": []
+      }
+     ],
+     "verdict": "not build-ready"
+    }
+   }
+  ]
+ }
+}
