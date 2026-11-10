@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>cloud.smarttasks</groupId>
   <artifactId>sf-smartsavant</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <packaging>jar</packaging>
   <name>SmartSavant (Java port: engine, gates, schema checks, adapters, exporters, importer, audit)</name>
   <licenses><license><name>Apache-2.0</name></license></licenses>

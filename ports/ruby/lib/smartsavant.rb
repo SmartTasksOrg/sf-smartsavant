@@ -4,7 +4,7 @@
 # importer and audit of the Python reference (src/sf_smartsavant), in module SmartSavant.
 #   require 'smartsavant'   # with -Iports/ruby/lib
 module SmartSavant
-  VERSION = '0.1.0'
+  VERSION = '0.1.1'
 end
 
 require_relative 'smartsavant/py'

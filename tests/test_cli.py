@@ -13,7 +13,7 @@ def run(*args, cwd=None):
 
 
 def test_version_demo_vectors():
-    assert run('--version').stdout.startswith('sf-smartsavant 0.1.0')
+    assert run('--version').stdout.startswith('sf-smartsavant 0.1.1')
     r = run('demo')
     assert r.returncode == 0 and r.stdout.strip().endswith('demo OK')
     r = run('vectors')

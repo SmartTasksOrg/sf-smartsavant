@@ -12,7 +12,7 @@ const importer = require('./importer');
 const audit = require('./audit');
 
 module.exports = {
-  version: '0.1.0',
+  version: '0.1.1',
   // canonical JSON
   dumps: canonical.dumps, encode: canonical.encode, sha256Hex: canonical.sha256Hex,
   // gates
