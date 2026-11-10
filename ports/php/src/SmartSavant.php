@@ -6,7 +6,7 @@ declare(strict_types=1);
 
 namespace SmartTasks\SmartSavant;
 
-const VERSION = '0.1.0';
+const VERSION = '0.1.1';
 
 require_once __DIR__ . '/Py.php';
 require_once __DIR__ . '/Gates.php';

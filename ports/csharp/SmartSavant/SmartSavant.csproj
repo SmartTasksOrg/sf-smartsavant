@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>SmartSavant</RootNamespace>
     <AssemblyName>SfSmartSavant</AssemblyName>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <IsPackable>false</IsPackable>
   </PropertyGroup>

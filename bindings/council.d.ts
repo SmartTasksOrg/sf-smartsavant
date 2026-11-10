@@ -1,4 +1,4 @@
-// SmartSavant council types: a mirror of spec/schema/*.json and spec/SEMANTICS.md (sf-smartsavant 0.1.0).
+// SmartSavant council types: a mirror of spec/schema/*.json and spec/SEMANTICS.md (sf-smartsavant 0.1.1).
 // The Node port (ports/node) implements these; an Electron or Node app supplies its own LLMAdapter.
 
 export interface W5H1 { who: string; what: string; where: string; when: string; why: string; how: string; }

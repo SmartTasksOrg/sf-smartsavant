@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sf-smartsavant"
-version = "0.1.0"
+version = "0.1.1"
 description = "A model-agnostic design council: stakeholder views and a juror merge per design-sprint phase, schema-checked adapter answers, exports (spec, stories, decision tree, trainset) and audits of council runs before anyone builds or trains from them."
 readme = "README.md"
 requires-python = ">=3.10"

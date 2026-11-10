@@ -1,6 +1,6 @@
 {
   "name": "sf-smartsavant",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "SmartSavant council engine for Node.js: the engine, gates, schema checks, stub, scripted and replay adapters, exporters, importer and audit of the Python reference. Not published on npm; use it from a clone.",
   "license": "Apache-2.0",

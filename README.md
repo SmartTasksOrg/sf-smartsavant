@@ -140,7 +140,7 @@ council run of a sibling project passes the same audit (with warnings for unsour
 
 ## Status
 
-- **Version 0.1.0, experimental.** It ships the engine, the stub, scripted and replay adapters, the
+- **Version 0.1.1, experimental.** It ships the engine, the stub, scripted and replay adapters, the
   gates, the exporters, the SmartSignal importer, the audit, a command line and seven ports (Node.js,
   Go, Rust, Java, C#, PHP, Ruby).
 - **Published:** PyPI `sf-smartsavant` (see Install). Nothing else is published; the ports are used from a
